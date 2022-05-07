@@ -12,7 +12,7 @@ const notFoundMiddleware = require('./middleware/not-found');
 const errorHandlerMiddleware = require('./middleware/error-handler');
 
 app.get('/', (req, res) => {
-  res.send('<h1>File Upload Starter</h1>');
+  res.send('<h1>File Upload STARTER</h1>');
 });
 
 // middleware
